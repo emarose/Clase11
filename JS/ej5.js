@@ -6,7 +6,7 @@
       let hora=new Date();
       var semana= ["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"];
       console.log("Hoy es :"+semana[hora.getDay()]);
-      console.log("Hora actual: "+hora.getHours()+":"+hora.getUTCHours());
+      console.log("Hora actual: "+hora.getHours()+":"+hora.getMinutes());
   }
   
   hora();
